@@ -1,8 +1,6 @@
 package com.pb.marandy.hw2;
 
 import java.util.Scanner;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class Calculator {
     static Scanner scanner = new Scanner(System.in);
