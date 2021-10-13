@@ -1,4 +1,4 @@
-package com.pb.marandy;
+package com.pb.marandy.hw1;
 
 public class HelloWorld {
 
