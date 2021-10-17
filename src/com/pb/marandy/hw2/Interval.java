@@ -6,6 +6,9 @@ public class Interval {
     public static void main(String[] args) {
         System.out.println("Введите число:");
         int xs = in.nextInt();
+        if (xs < 0) {
+            System.out.print("Число меньше 0");
+        }
         if (xs > 0 && xs <= 14) {
             System.out.print("Число в промежутке от 0 до 14");
         }
@@ -14,7 +17,8 @@ public class Interval {
         }
         else if (xs >= 36 && xs <= 50) {
             System.out.print("Число в промежутке от 36 до 50");
-        } else {
+        }
+        else if (xs >= 50 ) {
             System.out.print("Число в промежутке больше 50");
         }
 
